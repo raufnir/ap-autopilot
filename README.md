@@ -63,13 +63,10 @@ ap-autopilot/
 ├── README.md               <- you are here
 ├── build-brief.md          <- original business requirements this was built from
 ├── plan.md                 <- node-by-node build plan, decisions, and open questions
-├── credentials.md          <- credential setup checklist
-└── workflows/
-    ├── 1-statements-ingest-extract.json   <- Workflow A: ingest, classify, extract, upsert
-    └── 2-statements-nightly-digest.json   <- Workflow B: nightly Telegram summary
+└── credentials.md          <- credential setup checklist
 ```
 
-Both `.json` files are real, importable n8n workflow exports. Real credentials, IDs, and instance-specific details have been redacted and replaced with clearly marked placeholders (search for `<YOUR_` or `<redacted`) — reconnect your own before running.
+The docs above cover every node, prompt, and decision in full detail. The raw importable `.json` workflow exports are kept in a private repo and available for client engagements — [message me on WhatsApp](https://wa.me/+8801796553402) if you'd like the working files rather than just the write-up.
 
 ---
 
