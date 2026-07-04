@@ -1,0 +1,13 @@
+# Secrets / local config
+.env
+.env.*
+*.pem
+*.key
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
+
+# n8n local export scratch
+*.tmp
